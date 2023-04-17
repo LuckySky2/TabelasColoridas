@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Exemplificando tabelas e scripts.</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="script.js" type="text/javascript">
+            
+        </script>
+    </head>
+    <body>
+        <p id=par_01 onclick="formato();"> Tabela com título de colunas </p>
+        <table>
+            <tr>
+                <th id="tab1"> Terça-feira</th>
+                <th id="tab1"> Sexta-feira</th>
+            </tr>
+            <tr>
+                <td id="Lab" onclick="formatoCelula();">Lab. Es.</td>
+                <td id="Lab">Lab. Es</td>
+            </tr>
+        </table>
+        <p> Tabela com título de linhas </p>
+        <table>
+            <tr>
+                <th id="tab2"> Terça-feira</th>
+                <td id="Es"> Lab. Es</td>
+            </tr>
+            <tr>
+                <th id="tab2">Sexta-feira</th>
+                <td id="Es">Lab. Es</td>
+            </tr>
+        </table>
+        <p> Tabela com colunas expandidas. </p>
+        <table>
+            <tr>
+                <th class="Coluna"> Coluna 1</th>
+                <th class="Coluna"> Coluna 2</th>
+                <th class="Coluna"> Coluna 3</th>
+            </tr>
+            <tr>
+                <td class="Celula">Célula Simples</td>
+                <td class="Celula" colspan="2">Célula pertencente a 2 colunas.</td>                
+            </tr>
+        </table>
+        
+        
+    </body>
+</html>

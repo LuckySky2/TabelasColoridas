@@ -1,0 +1,26 @@
+table, th, tr, td  {
+    border: 1px solid;
+}
+
+#tab1{
+    background-color: #3BB9FF;
+}
+
+#tab2{
+    background-color: #F8F0E3;
+}
+
+#Lab{
+    background-color: yellow;
+}
+
+#Es{
+    background-color:#DCD7D5;
+}
+.Coluna{
+    background-color: #5865F2;
+}
+
+.celula{
+    background-color: #F8B88B;
+}
